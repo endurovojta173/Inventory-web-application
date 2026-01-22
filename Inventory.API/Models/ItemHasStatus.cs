@@ -9,10 +9,10 @@ namespace Inventory.API.Models
         
         // Foreign Key to Item
         public int ItemId { get; set; }
-        public Item? Item { get; set; }
+        public Item Item { get; set; } = null!;
 
         // Foreign Key to Status
         public int StatusId { get; set; }
-        public Status? Status { get; set; }
+        public ItemStatus Status { get; set; } = null!;
     }
 }

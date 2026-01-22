@@ -29,7 +29,7 @@ namespace Inventory.API.Models
 
         // Foreign Key to Department
         public int DepartmentId { get; set; }
-        public Department Department { get; set; } = null!;
+        public Department? Department { get; set; }
 
     }
 }

@@ -6,11 +6,11 @@ namespace Inventory.API.Models
         public string DepartmentName { get; set; } = string.Empty;
 
         // Foreign Key to HeadOfDepartment (Employee)
-        public int HeadOfDepartmentId { get; set; }
+        public int? HeadOfDepartmentId { get; set; }
         public Employee? HeadOfDepartment { get; set; }
 
         // Navigation property for Employees in this Department
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public List<Employee>? Employees { get; set; }
 
     }
 }
