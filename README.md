@@ -1,7 +1,7 @@
 # Inventory-web-application
 
 
---- Setting up project ---
+## --- Setting up project ---
 
 dotnet --version
 dotnet new sln -n InventoryManager
@@ -17,6 +17,20 @@ To run this app you need to write to terminal dotnet run, CTRL+C to end
 
 Iam using SQL Server 2022 Express
 
---- Database ---
-I have used dbdiagram.io for creating database diagram. 
-https://dbdocs.io/vojtechbrenek173/Inventory-web-application-database
+## --- Database ---
+
+I have used dbdiagram.io for creating database diagram. Documentation of database + diagram is available on this address: https://dbdocs.io/vojtechbrenek173/Inventory-web-application-database
+
+## --- Project structure ---
+
+### Controllers
+
+### Date
+
+### Migrations
+
+### Models
+
+### Program.cs
+
+
